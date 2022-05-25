@@ -19,7 +19,42 @@
     <title>Weather app</title>
   </head>
   <body>
-  
+    <man class="main">
+      <div class="container">
+        <div class="card__left">
+          <div class="inputBox">
+            <input
+              type="text"
+              placeholder="search.."
+              autocomplete="off"
+              id="search"
+            />
+            <i class="bi bi-search"></i>
+          </div>
+        </div>
+        <div class="card__right">
+          <div class="city">
+            <div class="city__box">
+              <h1 class="city__name"><span id="count"></span></h1>
+            </div>
+            <div class="fullYear">
+              <span id="icon">
+                <img src="" alt="" />
+              </span>
+              <h1 class="deg"><span></span></h1>
+            </div>
+          </div>
+          <div class="weather">
+            <div class="dateYear">
+              <p class="clock">10 : 04</p>
+              <p class="weather__date date"></p>
+            </div>
+            <div class="weather__type type"></div>
+            <div class="weather__temps temps"></div>
+          </div>
+        </div>
+      </div>
+    </man>
   </body>
   <script src="./js/app.js"></script>
 </html>
